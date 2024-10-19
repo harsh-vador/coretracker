@@ -1,3 +1,10 @@
+<img src="https://github.com/user-attachments/assets/ab50b532-6d10-4858-8a3b-02b856a8d53e" alt="logo" width="200" height="200" /> 
+
+# CoreTracker Mobile App 
+- A React Native App with pre-built and customizable routines based on your BMI with four core exercises—Squats, Pushups, Lunges, Planks where in the future more exercises can be added.
+- Repetition Counting & Timed Holding: Automatic rep counting for squats, pushups, and lunges; timed holds for planks.
+- Form Correction: Exercises only start when users achieve correct posture.
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
@@ -26,3 +33,13 @@ npm run android
 ## Congratulations! :tada:
 
 You've successfully run your React Native App. :partying_face:
+
+# Screenshots
+<img width="160" alt="Landing Page" src="https://github.com/user-attachments/assets/71c50d1e-7cd0-48e9-aa67-1825c0920308">
+<img width="160" alt="Dashboard" src="https://github.com/user-attachments/assets/4760e6f8-fa11-4994-9986-ab705c4dd4e4">
+<img width="160" alt="Exercise Tracking Page" src="https://github.com/user-attachments/assets/b2e80ae1-ed1d-49e5-9768-f49fc105d4a6">
+<img width="160" alt="Exercise List" src="https://github.com/user-attachments/assets/9bb8fddc-13d3-46a2-b6bb-544824ef4110">
+<img width="160" alt="Sub category Exercise List" src="https://github.com/user-attachments/assets/29e01203-3756-4f7b-b193-95fe24b726bb">
+<img width="160" alt="Exercise Details Page" src="https://github.com/user-attachments/assets/767b97f5-d4e5-4c51-adf4-92bfc28b7cbc">
+
+
