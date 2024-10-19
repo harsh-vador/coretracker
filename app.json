@@ -1,0 +1,19 @@
+{
+  "name": "CoreTracker",
+  "displayName": "CoreTracker",
+  "icon": "./assets/logo.jpg",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "7f4c9691-66a2-434a-8cd1-b85d03799885"
+      }
+    }
+  },
+  "android": {
+    "adaptiveIcon": {
+      "foregroundImage": "./assets/logo.jpg"
+    },
+
+    "package": "com.coretracker"
+  }
+}
