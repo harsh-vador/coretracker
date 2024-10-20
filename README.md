@@ -54,4 +54,7 @@ You've successfully run your React Native App. :partying_face:
 <img width="160" alt="Sub category Exercise List" src="https://github.com/user-attachments/assets/29e01203-3756-4f7b-b193-95fe24b726bb">
 <img width="160" alt="Exercise Details Page" src="https://github.com/user-attachments/assets/767b97f5-d4e5-4c51-adf4-92bfc28b7cbc">
 
+# DEMO
+
+https://github.com/user-attachments/assets/09d0b949-e509-4051-afc1-1043c1a952b5
 
