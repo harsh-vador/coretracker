@@ -30,6 +30,18 @@ npm run android
 
 ```
 
+You may encounter the following error in the logs during application deployment due to the react-native-snap-carousel package, as ViewPropTypes is deprecated. To resolve this issue, follow the [solution](https://github.com/meliorence/react-native-snap-carousel/issues/992#issuecomment-1676055287) provided here.
+
+```
+ ERROR  TypeError: Cannot read property 'style' of undefined, js engine: hermes
+ LOG  Running "CoreTracker" with {"rootTag":11}
+ ERROR  Invariant Violation: "CoreTracker" has not been registered. This can happen if:
+* Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
+* A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+```
+
+
+
 ## Congratulations! :tada:
 
 You've successfully run your React Native App. :partying_face:
