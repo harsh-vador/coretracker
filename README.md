@@ -60,11 +60,11 @@ You've successfully run your React Native App. :partying_face:
 https://github.com/user-attachments/assets/09d0b949-e509-4051-afc1-1043c1a952b5
 
 ## Planks
-
 https://github.com/user-attachments/assets/a215e253-447e-4e48-bb9e-f20068c229cb
 
 ## Lunges
-
 https://github.com/user-attachments/assets/24a4eaed-f110-446e-ba98-96da1e547425
 
+## Pushups
+https://github.com/user-attachments/assets/f6ba1796-4e51-470a-99ca-db49c4e2cedf
 
