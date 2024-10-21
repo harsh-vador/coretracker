@@ -30,7 +30,7 @@ npm run android
 
 ```
 
-You may encounter the following error in the logs during application deployment due to the react-native-snap-carousel package, as ViewPropTypes is deprecated. To resolve this issue, follow the [solution](https://github.com/meliorence/react-native-snap-carousel/issues/992#issuecomment-1676055287) provided here.
+You may encounter the following error in the logs during application deployment due to the react-native-snap-carousel package, as ViewPropTypes is deprecated. To resolve this issue, follow the [solution](https://github.com/meliorence/react-native-snap-carousel/issues/992#issuecomment-1676055287) provided here. You can also follow below steps for quick workaround
 
 ```
  ERROR  TypeError: Cannot read property 'style' of undefined, js engine: hermes
@@ -38,6 +38,26 @@ You may encounter the following error in the logs during application deployment 
  ERROR  Invariant Violation: "CoreTracker" has not been registered. This can happen if:
 * Metro (the local dev server) is run from the wrong folder. Check if Metro is running, stop it and restart it in the current project.
 * A module failed to load due to an error and `AppRegistry.registerComponent` wasn't called., js engine: hermes
+```
+
+## Solution
+```
+Here are step by step instructions for anyone interested
+
+Step 1: Open the Files
+You'll need to make changes to the following files within the react-native-snap-carousel package inside your node_modules folder:
+
+Carousel.js
+Pagination.js
+PaginationDot.js
+ParallaxImage.js
+
+Step 2: Modify Code
+Make the following changes in all the above files:
+
+Change View.propTypes.style --> View.propTypes?.style
+Add ? after propTypes
+
 ```
 
 
